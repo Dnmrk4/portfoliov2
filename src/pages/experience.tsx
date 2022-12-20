@@ -10,9 +10,9 @@ function Experience(): JSX.Element {
     <>
       <IndexPage title="Experience" />
 
-      <div className="flex flex-col justify-center pt-56 overflow-hidden ">
+      <div className="flex flex-col justify-center pt-40 overflow-hidden md:pt-56 ">
         <div className="mx-auto snap-start ">
-          <h2 className="flex flex-row p-1 mb-10 text-2xl rounded-full outline outline-offset-1 outline-1">
+          <h2 className="flex flex-row p-2 mb-10 text-2xl rounded-full shadow-inner font-frontdev outline shadow-current outline-offset-1 outline-1">
             <svg
               width="6"
               height="6"
@@ -29,20 +29,20 @@ function Experience(): JSX.Element {
                 d="M20.25 14.15v4.25c0 1.094-.787 2.036-1.872 2.18-2.087.277-4.216.42-6.378.42s-4.291-.143-6.378-.42c-1.085-.144-1.872-1.086-1.872-2.18v-4.25m16.5 0a2.18 2.18 0 00.75-1.661V8.706c0-1.081-.768-2.015-1.837-2.175a48.114 48.114 0 00-3.413-.387m4.5 8.006c-.194.165-.42.295-.673.38A23.978 23.978 0 0112 15.75c-2.648 0-5.195-.429-7.577-1.22a2.016 2.016 0 01-.673-.38m0 0A2.18 2.18 0 013 12.489V8.706c0-1.081.768-2.015 1.837-2.175a48.111 48.111 0 013.413-.387m7.5 0V5.25A2.25 2.25 0 0013.5 3h-3a2.25 2.25 0 00-2.25 2.25v.894m7.5 0a48.667 48.667 0 00-7.5 0M12 12.75h.008v.008H12v-.008z"
               />
             </svg>
-            Experience.
+            Experience
           </h2>
         </div>
-        <div className="mx-auto mb-32 ">
+        <div className="mx-auto mb-12 md:mb-32">
           <div className="justify-center mx-auto">
-            <h3 className="pb-32 text-2xl text-center ">Work.</h3>
-            <div className="flex flex-col w-auto p-4 mx-auto space-y-24 ">
-              <div className="flex flex-row justify-between m-4 mx-auto shadow-md rounded-xl shadow-slate-500">
+            <h3 className="mb-12 text-2xl text-center md:mb-32 font-kanu font-frontdev">Work.</h3>
+            <div className="flex flex-col w-auto p-12 mx-auto space-y-10 font-text2 md:space-y-24">
+              <div className="flex flex-row justify-between m-4 mx-auto shadow-inner rounded-4xl shadow-current">
                 <Image
                   src="/assets/fifive.jpg"
                   width="270"
                   height="96"
                   alt=""
-                  className="hidden transition duration-300 cursor-pointer opacity-60 hover:opacity-80 rounded-xl hover:h-52 hover:w-72 md:flex"
+                  className="hidden w-96 rounded-4xl hover:h-52 md:flex"
                 />
                 <div className="flex flex-col items-center p-4 m-4 mx-auto rounded-md md:items-start ">
                   <Image
@@ -60,15 +60,15 @@ function Experience(): JSX.Element {
                     time, but the experince has been great, being able to learn
                     and grow my skills. Find me in Fivver{" "}
                     <Link
-                      href="https://www.fiverr.com/danmark_dash/"
-                      className="text-green hover:text-purpleish"
+                      href="https://www.fiverr.com/s2/f1f90b2b26"
+                      className="link text-green hover:text-white"
                     >
                       @danmark_dash
                     </Link>
                   </p>
                 </div>
               </div>
-              <div className="flex flex-row justify-between m-4 mx-auto shadow-md rounded-xl shadow-slate-500">
+              <div className="flex flex-row justify-between m-4 mx-auto shadow-inner rounded-4xl shadow-current">
                 <div className="flex flex-col items-center p-4 m-4 mx-auto rounded-md md:items-end">
                   <Image
                     className="mb-4"
@@ -92,16 +92,16 @@ function Experience(): JSX.Element {
                   width="270"
                   height="96"
                   alt=""
-                  className="hidden md:flex"
+                  className="hidden w-96 md:flex"
                 />
               </div>
-              <div className="flex flex-row justify-between m-4 mx-auto shadow-md rounded-xl shadow-slate-500">
+              <div className="flex flex-row justify-between m-4 mx-auto shadow-inner rounded-4xl shadow-current">
                 <Image
                   src="/assets/kloutshop.png"
                   alt=""
                   width="144"
                   height="64"
-                  className="hidden ml-16 mr-16 md:flex"
+                  className="hidden w-64 ml-16 mr-16 md:flex"
                 />
                 <div className="flex flex-col items-center p-4 m-4 mx-auto rounded-md md:items-start ">
                   <Image
@@ -128,7 +128,7 @@ function Experience(): JSX.Element {
         </div>
         <Line />
         <div>
-          <div className="">
+          <div className="items-center p-2 mx-auto ">
             <Projects />
           </div>
         </div>

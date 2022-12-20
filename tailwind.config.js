@@ -1,7 +1,10 @@
 /** @type {import('tailwindcss').Config} */
 
 module.exports = {
-  content: ["./src/**/*.{js,ts,jsx,tsx}"],
+  content: [
+    "./node_modules/flowbite-react/**/*.js",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
   darkMode: "class",
   theme: {
     extend: {
@@ -52,6 +55,19 @@ module.exports = {
         xl: "1700px",
       },
     },
+    fontFamily: {
+      nunito: ["Nunito", "sans-serif"],
+      Pridi: ['Pridi', 'serif'],
+      dnmrk1hi:['Hi Melody', "cursive"],
+      dnmrk2goth:['Rubik 80s Fade', 'cursive'],
+      frontdev:['Comfortaa', 'cursive'],
+      head1kod:['Kodchasan', "sans-serif"],
+      text1:['Baloo 2', 'cursive'],
+      danm:['Secular One', 'sans-serif'],
+      text2:['Montserrat Alternates', 'sans-serif'],
+      text3:['Nanum Myeongjo', 'serif'],
+
+    },
   },
   daisyui: {
     themes: [
@@ -85,7 +101,5 @@ module.exports = {
       inset: ["group-focus"],
     },
   },
-  plugins: [require("daisyui")
-
-],
+  plugins: [require("daisyui"), require("flowbite/plugin")],
 };
