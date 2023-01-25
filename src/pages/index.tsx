@@ -14,9 +14,9 @@ function Home(): JSX.Element {
             <p className="text-6xl font-Pridi">DANMARK MUTAI</p>
             <p className="text-4xl min-w-max font-frontdev">Front-end dev.</p>
             <p className="max-w-xs text-sm md:max-w-md font-text2">
-              I design and develop good web sites. I also work well with a team,
-              a quick learner and work to solve problems for campanies. In
-              general i&apos;m an all-rounded guy with a passion for coding.
+              I design and develop good websites, I also do videography and photogrphy.
+              I work well with a team or individually. I&#39;m a quick learner and work to create cool designs and solve problems in campanies and clients. In
+              general i&apos;m an all-rounded guy with a passion for coding and art.
             </p>
           </div>
           <div className="justify-center mx-auto">
@@ -41,6 +41,7 @@ function Home(): JSX.Element {
                 I&apos;m a juniour developer and i have a passion to tech. I
                 think that&apos;s why i was able to learn some code in my few
                 years. I also like art and design, generaly like to create.
+                I&apos;m a juniour dev, doing
               </p>
               <div className="items-center block w-64 h-auto shadow-sm rounded-4xl shadow-current md:w-96 ">
                 <h5 className="pb-4 m-4 text-xl font-medium leading-tight text-center font-head1kod ">
@@ -87,7 +88,7 @@ function Home(): JSX.Element {
                     </div>
                     <div>
                       <a href="http://resume.github.io/?Dnmrk4">
-                        <button className="pt-0 pb-0 pl-4 pr-4 font-head1kod hover:bg-purplish hover:outline-transparent rounded-4xl outline outline-purplish ">
+                        <button className="pt-0 pb-0 pl-4 pr-4 font-head1kod hover:bg-purplish hover:outline-transparent rounded-4xl ring-1 ring-purplish ">
                           Github
                           <br />
                           Resume
@@ -98,7 +99,7 @@ function Home(): JSX.Element {
                 </div>
               </div>
             </div>
-            <div className="flex flex-col space-y-16 md:space-y-10">
+            <div className="flex flex-col space-y-16 md:space-y-14">
               <div className="flex justify-center ">
                 <div className="justify-center block w-64 shadow-sm rounded-4xl shadow-current md:w-96">
                   <h5 className="pb-4 m-4 text-xl font-medium leading-tight text-center font-head1kod ">
@@ -115,9 +116,9 @@ function Home(): JSX.Element {
                     </div>
                     <div className="mb-8">
                       <div className="w-full h-4 bg-slate-300 rounded-2xl">
-                        <div className="bg-purplish top-0 left-0 flex h-full w-[89%] items-center justify-between rounded-2xl ">
+                        <div className="bg-purplish top-0 left-0 flex h-full w-[80%] items-center justify-between rounded-2xl ">
                           <p className="pl-2">Figma</p>
-                          <p className="pr-2">89%</p>
+                          <p className="pr-2">80%</p>
                         </div>
                       </div>
                     </div>
@@ -148,9 +149,9 @@ function Home(): JSX.Element {
                     </div>
                     <div className="mb-8">
                       <div className="w-full h-4 bg-slate-300 rounded-2xl">
-                        <div className="bg-purplish font-text1b top-0 left-0 flex h-full w-[89%] items-center justify-between rounded-2xl ">
+                        <div className="bg-purplish font-text1b top-0 left-0 flex h-full w-[80%] items-center justify-between rounded-2xl ">
                           <p className="pl-2">Figma</p>
-                          <p className="pr-2">89%</p>
+                          <p className="pr-2">80%</p>
                         </div>
                       </div>
                     </div>

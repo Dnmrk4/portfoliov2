@@ -10,9 +10,9 @@ function Experience(): JSX.Element {
     <>
       <IndexPage title="Experience" />
 
-      <div className="flex flex-col justify-center pt-40 overflow-hidden md:pt-56 ">
+      <div className="flex flex-col justify-center pt-40 overflow-hidden ">
         <div className="mx-auto snap-start ">
-          <h2 className="flex flex-row p-2 mb-10 text-2xl rounded-full shadow-inner font-frontdev outline shadow-current outline-offset-1 outline-1">
+          <h2 className="flex flex-row p-2 mb-10 text-4xl font-frontdev ">
             <svg
               width="6"
               height="6"
@@ -21,7 +21,7 @@ function Experience(): JSX.Element {
               viewBox="0 0 24 24"
               stroke-width="1.5"
               stroke="currentColor"
-              className="w-6 h-6 m-1"
+              className="m-1 w-9 h-7"
             >
               <path
                 stroke-linecap="round"
@@ -34,15 +34,15 @@ function Experience(): JSX.Element {
         </div>
         <div className="mx-auto mb-12 md:mb-32">
           <div className="justify-center mx-auto">
-            <h3 className="mb-12 text-2xl text-center md:mb-32 font-kanu font-frontdev">Work.</h3>
+            <h3 className="mb-10 text-2xl text-center font-kanu font-frontdev">Work.</h3>
             <div className="flex flex-col w-auto p-12 mx-auto space-y-10 font-text2 md:space-y-24">
-              <div className="flex flex-row justify-between m-4 mx-auto shadow-inner rounded-4xl shadow-current">
+              <div className="flex flex-row justify-between m-4 mx-auto rounded-4xl">
                 <Image
-                  src="/assets/fifive.jpg"
-                  width="270"
-                  height="96"
+                  src="/assets/fifive.png"
+                  width="144"
+                  height="64"
                   alt=""
-                  className="hidden w-96 rounded-4xl hover:h-52 md:flex"
+                  className="hidden p-4 cursor-pointer w-96 rounded-4xl md:flex"
                 />
                 <div className="flex flex-col items-center p-4 m-4 mx-auto rounded-md md:items-start ">
                   <Image
@@ -61,14 +61,14 @@ function Experience(): JSX.Element {
                     and grow my skills. Find me in Fivver{" "}
                     <Link
                       href="https://www.fiverr.com/s2/f1f90b2b26"
-                      className="link text-green hover:text-white"
+                      className="cursor-pointer hover:link text-green hover:text-white"
                     >
                       @danmark_dash
                     </Link>
                   </p>
                 </div>
               </div>
-              <div className="flex flex-row justify-between m-4 mx-auto shadow-inner rounded-4xl shadow-current">
+              <div className="flex flex-row justify-between m-4 mx-auto rounded-4xl">
                 <div className="flex flex-col items-center p-4 m-4 mx-auto rounded-md md:items-end">
                   <Image
                     className="mb-4"
@@ -89,19 +89,19 @@ function Experience(): JSX.Element {
                 </div>
                 <Image
                   src="/assets/KFK1.png"
-                  width="270"
+                  width="260"
                   height="96"
                   alt=""
-                  className="hidden w-96 md:flex"
+                  className="hidden p-8 bg-current w-96 md:flex"
                 />
               </div>
-              <div className="flex flex-row justify-between m-4 mx-auto shadow-inner rounded-4xl shadow-current">
+              <div className="flex flex-row justify-between m-4 mx-auto rounded-4xl">
                 <Image
                   src="/assets/kloutshop.png"
                   alt=""
                   width="144"
                   height="64"
-                  className="hidden w-64 ml-16 mr-16 md:flex"
+                  className="hidden w-64 p-16 ml-16 mr-16 md:flex"
                 />
                 <div className="flex flex-col items-center p-4 m-4 mx-auto rounded-md md:items-start ">
                   <Image

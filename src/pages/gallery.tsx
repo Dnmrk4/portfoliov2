@@ -4,13 +4,14 @@ import Image from "next/image";
 import Link from "next/link";
 
 const Gallery = () => {
+
   return (
     <>
       <IndexPage title="Gallery" />
       <div>
-        <div className="flex flex-col justify-center pt-56 mb-24 overflow-hidden ">
-          <div className="mx-auto snap-start snap-y ||">
-            <h2 className="flex flex-row p-2 mb-10 text-2xl rounded-full shadow-inner font-frontdev outline shadow-current outline-offset-1 outline-1">
+        <div className="flex flex-col justify-center pt-40 mb-4 overflow-hidden ">
+          <div className="mx-auto snap-start snap-y">
+            <h2 className="flex flex-row p-2 mb-10 text-4xl rounded-full font-frontdev">
               <svg
                 width="6"
                 height="6"
@@ -19,7 +20,7 @@ const Gallery = () => {
                 viewBox="0 0 24 24"
                 stroke-width="1.5"
                 stroke="currentColor"
-                className="w-6 h-6 m-1"
+                className="m-1 w-9 h-7 "
               >
                 <path
                   stroke-linecap="round"
@@ -31,9 +32,9 @@ const Gallery = () => {
             </h2>
           </div>
         </div>
-        <div className="container justify-center mx-auto font-text2">
+        <div className="container justify-center mx-auto mb-12 font-text2">
           <div className="flex flex-col justify-center p-4 mx-auto">
-            <h4 className="mx-auto -mb-6 text-xs text-center md:text-left md:text-lg">
+            <h4 className="mx-auto -mb-6 text-xs italic text-center md:text-left md:text-lg">
               Current
             </h4>
             <div className="flex flex-row w-auto p-6 m-6 mx-auto space-x-4 overflow-auto shadow-inner snap-x snap-proximity md:w-4/6 scroll-smooth shadow-current rounded-4xl">
@@ -96,117 +97,19 @@ const Gallery = () => {
             </div>
           </div>
 
-          <div className="flex flex-col justify-center p-4">
-            <h4 className="mx-auto -mb-6 text-xs text-center md:text-left md:text-lg">
-              Portfolio v1
-            </h4>
-            <div className="flex flex-row w-auto p-6 m-6 mx-auto space-x-4 overflow-auto shadow-inner snap-x snap-proximity md:w-4/6 scroll-smooth shadow-current rounded-4xl">
-              <Image
-                src="/assets/KFK.png"
-                alt=""
-                width="244"
-                height="144"
-                className="w-full p-2 shadow snap-center snap-always shadow-current rounded-4xl"
-              />
-              <iframe className="w-full rounded-4xl "  src="/assets/sauti.mp4"></iframe>
-              <Image
-                src="/assets/danmarkk.png"
-                alt=""
-                width="244"
-                height="144"
-                className="p-2 rounded-xl"
-              />
-              <Image
-                src="/assets/danmarkk.png"
-                alt=""
-                width="244"
-                height="144"
-                className="p-2 rounded-xl"
-              />
-              <Image
-                src="/assets/danmarkk.png"
-                alt=""
-                width="244"
-                height="144"
-                className="p-2 rounded-xl"
-              />
-              <Image
-                src="/assets/danmarkk.png"
-                alt=""
-                width="244"
-                height="144"
-                className="p-2 rounded-xl"
-              />
-              <Image
-                src="/assets/danmarkk.png"
-                alt=""
-                width="244"
-                height="144"
-                className="p-2 rounded-xl"
-              />
-              <Image
-                src="/assets/danmarkk.png"
-                alt=""
-                width="244"
-                height="144"
-                className="p-2 rounded-xl"
-              />
-              <Image
-                src="/assets/danmarkk.png"
-                alt=""
-                width="244"
-                height="144"
-                className="p-2 rounded-xl"
-              />
-            </div>
-          </div>
+
           <div className="flex flex-col justify-center p-4" id="marcus">
-            <h4 className="mx-auto -mb-6 text-xs text-center md:text-left md:text-lg">
+            <h4 className="mx-auto -mb-6 text-xs italic text-center md:text-left md:text-lg">
               Marcus THY Rapper
             </h4>
             <div className="flex flex-row w-auto p-6 m-6 mx-auto space-x-4 overflow-auto shadow-inner snap-x snap-proximity md:w-4/6 scroll-smooth shadow-current rounded-4xl">
-              <Image
-                src="/assets/KFK.png"
-                alt=""
-                width="244"
-                height="144"
-                className="w-full p-2 shadow snap-center snap-always shadow-current rounded-4xl"
-              />
-              <Image
-                src="/assets/danmarkk.png"
-                alt=""
-                width="244"
-                height="144"
-                className="p-2 rounded-xl"
-              />
-              <Image
-                src="/assets/danmarkk.png"
-                alt=""
-                width="244"
-                height="144"
-                className="p-2 rounded-xl"
-              />
-              <Image
-                src="/assets/danmarkk.png"
-                alt=""
-                width="244"
-                height="144"
-                className="p-2 rounded-xl"
-              />
-              <Image
-                src="/assets/danmarkk.png"
-                alt=""
-                width="244"
-                height="144"
-                className="p-2 rounded-xl"
-              />
-              <Image
-                src="/assets/danmarkk.png"
-                alt=""
-                width="244"
-                height="144"
-                className="p-2 rounded-xl"
-              />
+
+              <video className="w-full p-1 h-60 clip rounded-4xl snap-center snap-always " controls muted autoPlay src="/assets/likeyou.mp4"></video>
+              <video className="w-full p-1 h-60 clip rounded-4xl snap-center snap-always " controls muted autoPlay src="/assets/beatbox.mp4"></video>
+              <video className="w-full p-1 h-60 clip rounded-4xl snap-center snap-always " controls muted autoPlay src="/assets/split.mp4"></video>
+              <video className="w-full p-1 h-60 clip rounded-4xl snap-center snap-always " controls muted autoPlay src="/assets/thy.mp4"></video>
+              <video className="w-full p-1 h-60 clip rounded-4xl snap-center snap-always " controls muted autoPlay src="/assets/thythy.mp4"></video>
+
               <Image
                 src="/assets/danmarkk.png"
                 alt=""
@@ -224,136 +127,10 @@ const Gallery = () => {
             </div>
           </div>
           <div className="flex flex-col justify-center p-4">
-            <h4 className="mx-auto -mb-6 text-xs text-center md:text-left md:text-lg">
-            Millie&apos;s Meals and bakes
+            <h4 className="mx-auto -mb-6 text-xs italic text-center md:text-left md:text-lg">
+              Portfolio v1
             </h4>
             <div className="flex flex-row w-auto p-6 m-6 mx-auto space-x-4 overflow-auto shadow-inner snap-x snap-proximity md:w-4/6 scroll-smooth shadow-current rounded-4xl">
-              <Image
-                src="/assets/KFK.png"
-                alt=""
-                width="244"
-                height="144"
-                className="w-full p-2 shadow snap-center snap-always shadow-current rounded-4xl"
-              />
-              <Image
-                src="/assets/danmarkk.png"
-                alt=""
-                width="244"
-                height="144"
-                className="p-2 rounded-xl"
-              />
-              <Image
-                src="/assets/danmarkk.png"
-                alt=""
-                width="244"
-                height="144"
-                className="p-2 rounded-xl"
-              />
-              <Image
-                src="/assets/danmarkk.png"
-                alt=""
-                width="244"
-                height="144"
-                className="p-2 rounded-xl"
-              />
-              <Image
-                src="/assets/danmarkk.png"
-                alt=""
-                width="244"
-                height="144"
-                className="p-2 rounded-xl"
-              />
-              <Image
-                src="/assets/danmarkk.png"
-                alt=""
-                width="244"
-                height="144"
-                className="p-2 rounded-xl"
-              />
-              <Image
-                src="/assets/danmarkk.png"
-                alt=""
-                width="244"
-                height="144"
-                className="p-2 rounded-xl"
-              />
-              <Image
-                src="/assets/danmarkk.png"
-                alt=""
-                width="244"
-                height="144"
-                className="p-2 rounded-xl"
-              />
-            </div>
-          </div>
-          <div className="flex flex-col justify-center p-4">
-            <h4 className="mx-auto -mb-6 text-xs text-center md:text-left md:text-lg">
-              Some art
-            </h4>
-            <div className="flex flex-row w-auto p-6 m-6 mx-auto space-x-4 overflow-auto shadow-inner snap-x snap-proximity md:w-4/6 scroll-smooth shadow-current rounded-4xl">
-              <Image
-                src="/assets/KFK.png"
-                alt=""
-                width="244"
-                height="144"
-                className="w-full p-2 shadow snap-center snap-always shadow-current rounded-4xl"
-              />
-              <Image
-                src="/assets/danmarkk.png"
-                alt=""
-                width="244"
-                height="144"
-                className="p-2 rounded-xl"
-              />
-              <Image
-                src="/assets/danmarkk.png"
-                alt=""
-                width="244"
-                height="144"
-                className="p-2 rounded-xl"
-              />
-              <Image
-                src="/assets/danmarkk.png"
-                alt=""
-                width="244"
-                height="144"
-                className="p-2 rounded-xl"
-              />
-              <Image
-                src="/assets/danmarkk.png"
-                alt=""
-                width="244"
-                height="144"
-                className="p-2 rounded-xl"
-              />
-              <Image
-                src="/assets/danmarkk.png"
-                alt=""
-                width="244"
-                height="144"
-                className="p-2 rounded-xl"
-              />
-              <Image
-                src="/assets/danmarkk.png"
-                alt=""
-                width="244"
-                height="144"
-                className="p-2 rounded-xl"
-              />
-              <Image
-                src="/assets/danmarkk.png"
-                alt=""
-                width="244"
-                height="144"
-                className="p-2 rounded-xl"
-              />
-            </div>
-          </div>
-          <div className="flex flex-col justify-center p-4">
-            <h4 className="mx-auto -mb-6 text-xs text-center md:text-left md:text-lg">
-              Logos
-            </h4>
-            <div className="flex flex-row w-auto p-6 m-6 mx-auto space-x-4 overflow-auto shadow-inner snap-x md:w-4/6 snap-proximity scroll-smooth shadow-current rounded-4xl">
               <Image
                 src="/assets/KFK.png"
                 alt=""
@@ -413,16 +190,15 @@ const Gallery = () => {
             </div>
           </div>
 
+
+
         </div>
       </div>
       {/*
       Current
       Portfolio v1
       marcus thy rapper
-      Some art
-      Millie's Meals and bakes
-      tiktok
-      logos
+
       */}
     </>
   );

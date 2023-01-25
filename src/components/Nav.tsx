@@ -1,12 +1,14 @@
 import React from "react";
 import Link from "next/link";
-import Moon from "./Moon";
 import { useTheme } from "next-themes";
 import { useState, useEffect } from "react";
+import { toast } from "react-toastify";
 
 function Nav() {
   const { systemTheme, theme, setTheme } = useTheme();
   const [mounted, setMounted] = useState(false);
+  const onClick = () => toast('Coming soon.', { hideProgressBar: true, autoClose: 300, position:'bottom-right'})
+
 
   useEffect(() => {
     setMounted(true);
@@ -80,7 +82,7 @@ function Nav() {
               Experience
             </Link>
             <Link
-              href="/gallery"
+              href="" onClick={onClick}
               className="transition duration-300 hover:text-black dark:hover:text-white "
             >
               Gallery
@@ -131,7 +133,7 @@ function Nav() {
               </li>
               <li>
                 <Link
-                  href="gallery"
+                  href="" onClick={onClick}
                   className="transition duration-300 "
                 >
                   Gallery
