@@ -1,9 +1,11 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
+
 
 function Footer() {
   return (
-    <footer className="flex flex-col-reverse justify-between p-10 font-frontdev hover:snap-end md:flex-row footer bg-neutral text-neutral-content">
+    <footer className="flex flex-col-reverse justify-between p-10 md:h-48 font-frontdev hover:snap-end md:flex-row footer bg-neutral text-neutral-content">
       <div className="justify-center opacity-70 ">
         <Image
           src="/assets/dashicon.png"
@@ -12,7 +14,10 @@ function Footer() {
           width={10}
           height={16}
         />
-        <a href="../assets/Danmark.pdf"><p className="p-1 pl-2 pr-2 text-xs text-white bg-black ring-1 ring-purplish rounded-4xl">Resume</p></a>
+        <a download href="/danmarks-resume.pdf" type="pdf"><p className="flex flex-row p-1 pl-2 pr-2 text-xs text-white bg-black ring-1 ring-purplish rounded-4xl">Resume <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-4 h-4 pl-1">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />
+        </svg></p>
+        </a>
         <p className="flex flex-row space-x-1 text-xs">
           <svg
             width="12"

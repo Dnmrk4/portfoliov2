@@ -101,5 +101,5 @@ module.exports = {
       inset: ["group-focus"],
     },
   },
-  plugins: [require("daisyui"), require("flowbite/plugin")],
+  plugins: [require("daisyui"), require("flowbite/plugin"), require("tailwindcss-3d")({ legacy: true })],
 };

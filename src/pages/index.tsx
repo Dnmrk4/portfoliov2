@@ -4,19 +4,18 @@ import Image from "next/image";
 
 function Home(): JSX.Element {
   return (
-    <>
+    <div className="">
       <IndexPage title="Home" />
 
       <div className="snap-y scroll-smooth">
         <div className="container flex flex-col-reverse justify-between pt-20 pb-32 mx-auto md:pt-32 snap-start md:flex-row">
           <div className="flex flex-col mx-auto space-y-10 text-center w-72 mt-28 min-w-lg md:text-left md:w-144">
-            <p className="-mb-10 text-left font-dnmrk1hi"><span className="text-lg font-bold ">Hi</span>!, I&apos;m</p>
+            <p className="-mb-10 text-left font-dnmrk1hi"><span className="text-lg font-bold ">Hi</span>, I&apos;m</p>
             <p className="text-6xl font-Pridi">DANMARK MUTAI</p>
-            <p className="text-4xl min-w-max font-frontdev">Front-end dev.</p>
+            <p className="text-4xl min-w-max font-frontdev">Designer</p>
             <p className="max-w-xs text-sm md:max-w-md font-text2">
-              I design and develop good websites, I also do videography and photogrphy.
-              I work well with a team or individually. I&#39;m a quick learner and work to create cool designs and solve problems in campanies and clients. In
-              general i&apos;m an all-rounded guy with a passion for coding and art.
+              I design and develop your ideas to life.
+              I&#39;m a quick learner and work to create good designs and solve problems in campanies or clients .
             </p>
           </div>
           <div className="justify-center mx-auto">
@@ -29,28 +28,27 @@ function Home(): JSX.Element {
             />
           </div>
         </div>
-        <Line />
+
         <div className="container flex flex-col justify-center mx-auto mt-24 mb-24 space-y-24 snap-start ">
           <div className="mb-16">
             <h3 className="text-3xl text-center font-head1kod">What I do.</h3>
           </div>
 
           <div className="flex flex-col justify-between mx-auto space-x-0 md:space-x-96 md:flex-row">
-            <div className="flex flex-col items-center mb-16 space-y-24 md:space-y-52">
+            <div className="flex flex-col items-center mb-16 space-y-24 md:space-y-44">
               <p className="max-w-xs text-sm text-center md:max-w-sm md:text-left font-text2">
-                I&apos;m a juniour developer and i have a passion to tech. I
-                think that&apos;s why i was able to learn some code in my few
-                years. I also like art and design, generaly like to create.
-                I&apos;m a juniour dev, doing
+                I do graphic design, web design, videography and photography.
+                I have a passion in tech and design. I also develop websites but my skills more on the design part.
+
               </p>
-              <div className="items-center block w-64 h-auto shadow-sm rounded-4xl shadow-current md:w-96 ">
-                <h5 className="pb-4 m-4 text-xl font-medium leading-tight text-center font-head1kod ">
+              <div className="items-center block w-64 h-auto shadow-sm card-actions rounded-4xl shadow-current md:w-96 ">
+                <h5 className="pb-4 m-4 text-xl font-medium leading-tight text-center font-head1kod">
                   Web development
                 </h5>
 
-                <div className="justify-center block p-6 mx-auto space-y-4 ">
-                  <div className="w-full px-4 mb-8">
-                    <div className="flex flex-row w-full h-4 overflow-hidden bg-slate-300 rounded-2xl">
+                <div className="justify-center block p-6 m-0 mx-auto space-y-4 ">
+                    <div className="w-full px-4 mb-8">
+                    <div className="flex flex-row w-full h-5 overflow-hidden bg-slate-300 rounded-2xl">
                       <div className="bg-kore top-0 left-0  flex h-full w-[90%] items-center justify-between  ">
                       </div>
                       <div className="bg-kore2 top-0 left-0 flex h-full w-[60%] items-center justify-between  ">
@@ -99,7 +97,7 @@ function Home(): JSX.Element {
                 </div>
               </div>
             </div>
-            <div className="flex flex-col space-y-16 md:space-y-14">
+            <div className="flex flex-col space-y-16 md:space-y-18">
               <div className="flex justify-center ">
                 <div className="justify-center block w-64 shadow-sm rounded-4xl shadow-current md:w-96">
                   <h5 className="pb-4 m-4 text-xl font-medium leading-tight text-center font-head1kod ">
@@ -163,14 +161,6 @@ function Home(): JSX.Element {
                         </div>
                       </div>
                     </div>
-                    <div className="mb-8">
-                      <div className="w-full h-4 bg-slate-300 rounded-2xl">
-                        <div className="bg-purplish font-text1b top-0 left-0 flex h-full w-[64%] items-center justify-between rounded-2xl ">
-                          <p className="pl-2">Canva</p>
-                          <p className="pr-2">64%</p>
-                        </div>
-                      </div>
-                    </div>
                   </div>
                 </div>
               </div>
@@ -178,7 +168,7 @@ function Home(): JSX.Element {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 

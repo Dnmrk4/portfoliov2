@@ -3,15 +3,17 @@ import IndexPage from "../components/title";
 import Link from "next/link";
 import Image from "next/image";
 import Line from "../components/Line";
+import { toast } from "react-toastify";
 
 function Experience(): JSX.Element {
+  const onClick = () => toast('Coming soon.', { hideProgressBar: true, autoClose: 300, position:'bottom-right'})
   return (
     <>
       <IndexPage title="Experience" />
 
-      <div className="flex flex-col justify-center pt-40 overflow-hidden ">
-        <div className="mx-auto snap-start ">
-          <h2 className="flex flex-row p-2 mb-10 text-4xl font-frontdev ">
+      <div className="flex flex-col justify-center md:pt-38 pt-36 overflow-hidden ">
+        <div className=" snap snap-mandatory mx-auto snap-start ">
+          <h2 className="flex flex-row p-2  text-4xl font-frontdev ">
             <svg
               width="6"
               height="6"
@@ -31,18 +33,11 @@ function Experience(): JSX.Element {
             Experience
           </h2>
         </div>
-        <div className="mx-auto mb-12 md:mb-32">
+        <div className="mx-auto ">
           <div className="justify-center mx-auto">
-            <h3 className="mb-10 text-2xl text-center font-kanu font-frontdev">Work.</h3>
-            <div className="flex flex-col w-auto p-12 mx-auto space-y-10 font-text2 md:space-y-24">
+            <div className="flex flex-col w-auto p-10 mx-auto font-text2 ">
               <div className="flex flex-row justify-between m-4 mx-auto rounded-4xl">
-                <Image
-                  src="/assets/fifive.png"
-                  width="144"
-                  height="64"
-                  alt=""
-                  className="hidden p-4 cursor-pointer w-96 rounded-4xl md:flex"
-                />
+
                 <div className="flex flex-col items-center p-4 m-4 mx-auto rounded-md md:items-start ">
                   <Image
                     className="mb-4"
@@ -86,22 +81,10 @@ function Experience(): JSX.Element {
                     a team and get organised.
                   </p>
                 </div>
-                <Image
-                  src="/assets/KFK1.png"
-                  width="260"
-                  height="96"
-                  alt=""
-                  className="hidden p-8 bg-current w-96 md:flex"
-                />
+
               </div>
               <div className="flex flex-row justify-between m-4 mx-auto rounded-4xl">
-                <Image
-                  src="/assets/kloutshop.png"
-                  alt=""
-                  width="144"
-                  height="64"
-                  className="hidden w-64 p-16 ml-16 mr-16 md:flex"
-                />
+
                 <div className="flex flex-col items-center p-4 m-4 mx-auto rounded-md md:items-start ">
                   <Image
                     className="mb-4"
@@ -125,10 +108,10 @@ function Experience(): JSX.Element {
             </div>
           </div>
         </div>
-        <Line />
+
         <div>
           <div className="items-center p-2 mx-auto ">
-            <div className="flex flex-col pt-2 mb-12 md:pt-32 md:mb-24 md:p-24 ">
+            <div className="flex flex-col pt-2 mb-12  md:mb-24 md:p-24 ">
               <h3 className="pt-2 mb-12 text-2xl text-center md:mb-24 font-head1kod">Projects</h3>
               <div className="flex flex-col mx-auto space-x-32 md:flex-row font-text2 ">
                 <div className="w-auto p-4">
@@ -136,8 +119,8 @@ function Experience(): JSX.Element {
                   <Link href="https://danmarkmutaiv1.netlify.com/"><h5 className="p-3 text-sm italic text-center text-current md:text-left">Portfolio v1</h5></Link>
                 </div>
                 <div className="w-auto p-4">
-                  <Link href="/gallery#marcus"><Image className="w-full rounded-4xl " src="/assets/KFK.png" width="244" height="140" alt="" /></Link>
-                  <Link href="/gallery#marcus"><h5 className="p-3 text-sm italic text-center text-current md:text-left">Marcus THY Rapper</h5></Link>
+                  <Link href="" onClick={onClick}><Image className="w-full rounded-4xl " src="/assets/KFK.png" width="244" height="140" alt="" /></Link>
+                  <Link href="" onClick={onClick}><h5 className="p-3 text-sm italic text-center text-current md:text-left">Marcus THY Rapper</h5></Link>
                 </div>
               </div>
             </div>
