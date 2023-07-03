@@ -12,7 +12,7 @@ function Home(): JSX.Element {
           <div className="flex flex-col mx-auto space-y-10 text-center w-72 mt-28 min-w-lg md:text-left md:w-144">
             <p className="-mb-10 text-left font-dnmrk1hi"><span className="text-lg font-bold ">Hi</span>, I&apos;m</p>
             <p className="text-6xl font-Pridi">DANMARK MUTAI</p>
-            <p className="text-4xl min-w-max font-frontdev">Designer</p>
+            <p className="text-4xl min-w-max font-frontdev">Designer.</p>
             <p className="max-w-xs text-sm md:max-w-md font-text2">
               I design and develop your ideas to life.
               I&#39;m a quick learner and work to create good designs and solve problems in campanies or clients .
