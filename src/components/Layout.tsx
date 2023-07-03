@@ -2,7 +2,6 @@ import IndexPage from "../components/title";
 import React, { FC, ReactNode } from "react";
 import Footer from "./Footer";
 import Nav from "./Nav";
-import Design from "./Pdfs";
 
 
 const Layout: FC<{ children: ReactNode }> = ({ children }) => {
