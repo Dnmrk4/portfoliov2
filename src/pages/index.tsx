@@ -155,9 +155,9 @@ function Home(): JSX.Element {
                     </div>
                     <div className="mb-8">
                       <div className="w-full h-4 bg-slate-300 rounded-2xl">
-                        <div className="bg-purplish font-text1b top-0 left-0 flex h-full w-[60%] items-center justify-between rounded-2xl ">
+                        <div className="bg-purplish font-text1b top-0 left-0 flex h-full w-[65%] items-center justify-between rounded-2xl ">
                           <p className="pl-2">Photoshop</p>
-                          <p className="pr-2">60%</p>
+                          <p className="pr-2">65%</p>
                         </div>
                       </div>
                     </div>
